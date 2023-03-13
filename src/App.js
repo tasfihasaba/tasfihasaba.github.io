@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import './tasfiha_saba.jpg';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img 
+          src={require("./tasfiha_saba.jpg")} 
+          className="App-logo" 
+          alt="logo" 
+          style={{width: "50%", height: "auto"}} // Add this line to resize the image
+        />
         <p>
           My name is Tasfiha Saba, and I'm going to master React!
         </p>
